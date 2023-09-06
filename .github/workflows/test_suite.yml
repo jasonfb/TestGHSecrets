@@ -19,6 +19,7 @@ env:
 jobs:
   test:
     runs-on: ubuntu-latest
+    environment: testing
     services:
       postgres:
         image: postgres:11-alpine
